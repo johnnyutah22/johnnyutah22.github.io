@@ -131,6 +131,7 @@ extension Theme {
         Theme(htmlFactory: MYHtmlFactory(),
               resourcePaths: ["Resources/MyTheme/styles.css"])
     }
+    
 }
 // This will generate your website using the built-in Foundation theme:
 try JohnnyUtahMobile().publish(withTheme: .myTheme,
